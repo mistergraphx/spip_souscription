@@ -147,7 +147,7 @@ function souscriptions_prochaine_relance($date_fin,$now=null){
 
 	// TODO : rendre les echeances de relance parametrables
 	// sous forme de chaine par exemple "1,7,15,30"
-	$relances = "0,7,15,30";
+	$relances = lire_config('souscriptions/notifications_relances_echeances');
 	$relances = explode(",",$relances);
 	$relances = array_map("intval",$relances);
 	$relances = array_unique($relances);

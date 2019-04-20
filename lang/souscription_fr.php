@@ -124,6 +124,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'label_montants_explication' => 'Texte d&#8217explication des montants',
 	'label_montants_label' => 'Label pour le champ « montants »',
 	'label_nom' => 'Nom',
+	'label_notifications_relances_echeances' => 'Rapels d\'écheance (en jours)',
 	'label_pays' => 'Pays',
 	'label_prenom' => 'Prénom',
 	'label_processus_paiement' => 'Processus de paiement',
