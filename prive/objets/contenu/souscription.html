@@ -5,6 +5,17 @@
 	<div class='label'><:souscription:label_date_souscription:> : </div>
 	<span class="#EDIT{date_souscription} date_souscription">(#DATE_SOUSCRIPTION|affdate)</span>
 </div>]
+
+[<div class="champ contenu_date__fin_souscription[ (#DATE_FIN*|strlen|?{'',vide})]">
+	<div class='label'><:souscription:label_date__fin:> : </div>
+	<span class="#EDIT{date_souscription} date_souscription">(#DATE_FIN|affdate)</span>
+</div>]
+
+[<div class="champ contenu_statut_souscription[ (#STATUT*|strlen|?{'',vide})]">
+	<div class='label'><:souscription:label_statut_souscription:> : </div>
+	<span class="statut_souscription">(#STATUT)</span>
+</div>]
+
 [<div class="champ contenu_type_souscription[ (#TYPE_SOUSCRIPTION*|strlen|?{'',vide})]">
 	<div class='label'><:souscription:label_type_souscription:> : </div>
 	<span class="#EDIT{type_souscription} type_souscription">(#TYPE_SOUSCRIPTION)</span>
