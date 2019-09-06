@@ -35,7 +35,7 @@ function genie_surveiller_paiement_souscriptions_dist(){
 function genie_relancer_souscriptions_abandonnees($now = null){
 	if (!$now) $now = time();
 
-	$datemoins1w = date('Y-m-d H:i:s',strtotime('-1 week',$now));
+	$datemoins1w = date('Y-m-d H:i:s',strtotime('-2 week',$now));
 	$notifications = charger_fonction('notifications', 'inc');
 
 
